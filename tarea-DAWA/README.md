@@ -1,28 +1,29 @@
-Módulo tecsup-2017-huallpacenteno
+# Módulo tecsup-2017-huallpacenteno
+
 Este módulo contiene varias funciones útiles para cálculos de fecha y validación de formularios. Puedes instalarlo y utilizarlo en tu proyecto de Node.js siguiendo estos pasos:
 
-Instalación
-Antes de comenzar, asegúrate de que tienes Node.js instalado en tu sistema. Si no lo tienes, puedes descargarlo e instalarlo desde nodejs.org.
+## Instalación
 
-1. Inicializa tu proyecto con npm
-Si aún no has inicializado tu proyecto con npm, puedes hacerlo ejecutando el siguiente comando en la carpeta raíz de tu proyecto:
+Antes de comenzar, asegúrate de que tienes Node.js instalado en tu sistema. Si no lo tienes, puedes descargarlo e instalarlo desde [nodejs.org](https://nodejs.org/).
 
-shell
-Copy code
-npm init
+1. **Inicializa tu proyecto con npm**
+
+   Si aún no has inicializado tu proyecto con npm, puedes hacerlo ejecutando el siguiente comando en la carpeta raíz de tu proyecto:
+
+   ```shell
+   npm init
+
 Esto te guiará a través de la creación de un archivo package.json donde se registrarán las dependencias de tu proyecto.
 
-2. Instala el módulo tecsup-2017-huallpacenteno
+2. **Instala el módulo tecsup-2017-huallpacenteno
 Una vez que hayas inicializado tu proyecto, puedes instalar el módulo tecsup-2017-huallpacenteno con el siguiente comando:
 
-shell
-Copy code
+
 npm install tecsup-2017-huallpacenteno
-3. Instala la dependencia Underscore (si no lo has hecho ya)
+3. **Instala la dependencia Underscore (si no lo has hecho ya)
 Asegúrate de que tengas la librería Underscore instalada como dependencia en tu proyecto. Si aún no la tienes, puedes instalarla con este comando:
 
-shell
-Copy code
+
 npm install underscore
 Ahora estarás listo para utilizar las funciones proporcionadas por el módulo tecsup-2017-huallpacenteno en tu aplicación Node.js.
 
@@ -30,8 +31,7 @@ Uso
 Cálculo de días hasta Navidad
 Puedes utilizar la función daysUntilChristmas para determinar la cantidad de días que faltan para Navidad. A continuación se muestra un ejemplo de cómo hacerlo:
 
-javascript
-Copy code
+
 const huallpacenteno = require('tecsup-2017-huallpacenteno');
 
 const diasHastaNavidad = huallpacenteno.daysUntilChristmas();
@@ -39,8 +39,7 @@ console.log(`Días hasta Navidad: ${diasHastaNavidad}`);
 Cálculo de la edad
 La función calculateAge te permite calcular la edad de una persona en función de su fecha de nacimiento. Aquí tienes un ejemplo de cómo usarla:
 
-javascript
-Copy code
+
 const huallpacenteno = require('tecsup-2017-huallpacenteno');
 
 const fechaDeNacimiento = '1990-05-15';
@@ -51,8 +50,7 @@ El módulo proporciona la función validateForm para validar datos de formulario
 
 Aquí hay un ejemplo de cómo utilizar validateForm:
 
-javascript
-Copy code
+
 const huallpacenteno = require('tecsup-2017-huallpacenteno');
 
 const formData = {
