@@ -9,12 +9,12 @@ Una vez que hayas inicializado tu proyecto, puedes instalar el módulo tecsup-20
 
 
 npm install tecsup-2017-huallpacenteno
-**Instala las dependencias necesarias
+Instala las dependencias necesarias
 
 Además de tecsup-2017-huallpacenteno, este proyecto utiliza otras dependencias que deben instalarse. Ejecuta los siguientes comandos para instalarlas:
 
-***npm init
-***npm install underscore
+###npm init
+###npm install underscore
 ***npm install validator
 ***npm install bootstrap
 ***npm install express
