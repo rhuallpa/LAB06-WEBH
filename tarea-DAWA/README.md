@@ -5,29 +5,31 @@ Este módulo contiene varias funciones útiles para cálculos de fecha y validac
 ## Instalación
 Instala el módulo tecsup-2017-huallpacenteno
 
-Una vez que hayas inicializado tu proyecto, puedes instalar el módulo tecsup-2017-huallpacenteno con el siguiente comando:
+Una vez que hayas inicializado tu proyecto, puedes instalar el módulo tecsup-2023-huallpacenteno con el siguiente comando:
 
 
 npm install tecsup-2017-huallpacenteno
-Instala las dependencias necesarias
+**Instala las dependencias necesarias
 
 Además de tecsup-2017-huallpacenteno, este proyecto utiliza otras dependencias que deben instalarse. Ejecuta los siguientes comandos para instalarlas:
 
-npm install underscore
-npm install validator
-npm install bootstrap
-npm install express
-Ejecuta la aplicación
+***npm init
+***npm install underscore
+***npm install validator
+***npm install bootstrap
+***npm install express
+
+**Ejecuta la aplicación
 
 Para ejecutar la aplicación, asegúrate de que tienes Node.js instalado y luego utiliza los siguientes comandos:
 
 Para ejecutar app.js:
 
 
-node app.js
+***node app.js
 Para ejecutar app1.js:
 
-node app1.js
+***node app1.js
 Accede a la aplicación en tu navegador
 
 Después de ejecutar la aplicación, puedes acceder a ella en tu navegador web utilizando la siguiente URL:
