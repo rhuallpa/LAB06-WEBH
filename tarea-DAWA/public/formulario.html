@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario con Borde Personalizado</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <style>
+    /* Estilos CSS personalizados */
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Esto centrará el contenido verticalmente */
+    }
+
+    /* Estilos para el formulario con borde */
+    .custom-border {
+      border: 2px solid rgb(0, 13, 255); /* Borde rojo sólido */
+      padding: 20px; /* Espacio interno para que el borde no esté pegado al contenido */
+      border-radius: 10px; /* Borde redondeado */
+      background-color: #f9f9f9; /* Color de fondo */
+    }
+  </style>
+</head>
+<body>
+  <div class="center-container"> <!-- Contenedor centrado -->
+    <div class="custom-border"> <!-- Formulario con borde personalizado -->
+      <h4 class="text-center">Formulario de Validacion Huallpa</h4>
+      <form action="/procesar" method="post">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <button type="submit" class="btn btn-success">Enviar</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
