@@ -16,11 +16,11 @@ npm install tecsup-2017-huallpacenteno
 
 Además de tecsup-2017-huallpacenteno, este proyecto utiliza otras dependencias que deben instalarse. Ejecuta los siguientes comandos para instalarlas:
 
-npm init
-npm install underscore
-npm install validator
-npm install bootstrap
-npm install express
+1. npm init
+2. npm install underscore
+3. npm install validator
+4. npm install bootstrap
+5. npm install express
 
 
 ### 3. Ejecuta la aplicación
